@@ -1,0 +1,1758 @@
+{
+  "App": {
+    "Heading": "ENHeading!!!",
+    "newKey": {
+      "contentstorage_type": "variation",
+      "data": {
+        "default": "en",
+        "variation2": "bbbb"
+      }
+    },
+    "kanghuru": {
+      "contentstorage_type": "image",
+      "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/kanghuru(2).svg",
+      "altText": ""
+    },
+    "test": "en test",
+    "uploadSvg": {
+      "contentstorage_type": "image",
+      "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/uploadSvg.svg",
+      "altText": ""
+    },
+    "screenshot": {
+      "contentstorage_type": "image",
+      "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/screenshot.png",
+      "altText": ""
+    },
+    "GermanShepherddogAlsatian": {
+      "contentstorage_type": "image",
+      "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/German-Shepherd-dog-Alsatian.webp",
+      "altText": ""
+    },
+    "laud": {
+      "contentstorage_type": "image",
+      "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/laud.png",
+      "altText": ""
+    },
+    "pealt": {
+      "contentstorage_type": "image",
+      "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/pealt.png",
+      "altText": ""
+    }
+  },
+  "PageTitles": {
+    "login": "Login",
+    "registration": "Registration",
+    "contacts": "Contacts",
+    "messages": "Messages",
+    "network": "Network",
+    "settings": "Settings",
+    "voicemails": "Voicemails",
+    "purchase": "Payment",
+    "premium_upgrade": "Premium UpgradeJJ",
+    "incoming_call": "Incoming call",
+    "calls3": "Call Logs22"
+  },
+  "Preloader": {
+    "message": "Loading, please be patient...",
+    "gifimage": {
+      "contentstorage_type": "image",
+      "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/gifimage.gif",
+      "altText": ""
+    }
+  },
+  "Login": {
+    "btn_log_in_facebook": "Sign in with Facebook",
+    "btn_log_in_google": "Sign in with Google",
+    "btn_sign_up_email": "Sign up with Email",
+    "ph_email": "Enter your email address",
+    "ph_password": "Enter your password",
+    "signin_with_email": {
+      "contentstorage_type": "variation",
+      "data": {
+        "default": "Sign in with email",
+        "variation2": "asdasdsad"
+      }
+    },
+    "btn_log_in": "Login to Onoff",
+    "by_signing_you_agree": "By signing up, you confirm that you agree to our:",
+    "term_of_service": "Terms of Service",
+    "privacy_policy": "Privacy Policy",
+    "btn_forgot_password": "Password recovery",
+    "password_rules": "The password should be at least 6 characters long, contain one small letter, one capital letter and one number",
+    "allow_fb_to_authorize": "Please authorize Facebook to log in",
+    "login_warning": "Full web application features are reserved for our Premium users. Not Premium yet?",
+    "beta_message_l1": "This is a beta version of onoff Web client. Some features are still in development.",
+    "beta_message_l1_2": "Coming soon",
+    "beta_message_l2": "- Arabic language",
+    "beta_message_l3": "- credits / number purchase",
+    "beta_message_l4": "- VOIP (internet) calls",
+    "EmailAddress": "Email address",
+    "Password": "Password",
+    "login_warning_link": "Learn more",
+    "Notifications": {
+      "Captcha": {
+        "title_verification_error": "Oops...",
+        "description_verification_error": "Apologies, but we couldn't verify the resolved captcha. Please try again."
+      }
+    },
+    "login_details_incorrect": "Your login details were incorrect, please try again!!"
+  },
+  "Register": {
+    "fname": "First Name1",
+    "lname": "Last Name",
+    "email": "Email address",
+    "password": "Password",
+    "ph_fname": "Enter your first name",
+    "ph_lname": "Enter your last name",
+    "ph_email": "Enter email address",
+    "ph_password": "Enter password",
+    "ph_country": "Select Country",
+    "register": "Sign up",
+    "signup_with_email": "Sign up with email",
+    "signin_with_account": "Sign in with your existing account",
+    "please_wait": "Please wait...",
+    "resend": "Resend",
+    "password_rules": "The password should be at least 6 characters long, contain one small letter, one capital letter and one number",
+    "first_name_invalid": "Please specify first name",
+    "last_name_invalid": "Please specify last name",
+    "country_invalid": "Please select country",
+    "sign_up_facebook": "Sign up with Facebook",
+    "sign_up_google": "Sign up with Google"
+  },
+  "Recovery": {
+    "title": "Password Recovery",
+    "instructions": "Please enter the email address you used to register. We'll send you an email with a link to reset your password.",
+    "enter_email": "Enter email address",
+    "send": "Send",
+    "email_sent": "We've sent an email to",
+    "didnt_receive": "Didn't receive the email?",
+    "resend": "Resend",
+    "back_to_login": "Back to login"
+  },
+  "ErrorCodes": {
+    "expired_token": "This recovery link has expired",
+    "used_token": "This recovery link is no longer valid",
+    "oops": "Oops, something went wrong",
+    "registration_email": "Email seems to be invalid",
+    "registration_locale": "Locale seems to be invalid",
+    "registration_timezone": "Timezone seems to be invalid",
+    "registration_validation": "Something went wrong",
+    "registration_password": "Password is invalid",
+    "registration_blocked": "User is blocked. Please contact support",
+    "registration_firstname": "Please enter a valid first name",
+    "registration_lastname": "Please enter a valid last name!",
+    "registration_email_used": "Email already used",
+    "registration_recaptcha_token": "Please confirm that you are not a robot",
+    "login_validation": "Could not log in, please check credentials",
+    "login_registration_required": "Registration required",
+    "login_different_way": "Account created in a different way",
+    "login_user_blocked": "The user is blocked",
+    "login_invalid_pass_blocked": "Too many attempts, user is blocked",
+    "login_password_invalid": "Password is invalid",
+    "category_name": "Please specify a valid name",
+    "category_firstname": "First name is invalid",
+    "category_lastname": "Last name is invalid",
+    "account_validation": "Account validation was unsuccessful",
+    "account_password": "Password validation was unsuccessful",
+    "country_iso_code": "Something bad happened",
+    "google_login_validation": "Something went wrong",
+    "facebook_validation": "Something went wrong",
+    "messages_limit_invalid": "Limit invalid",
+    "messaging_feature_off": "Messaging is turned off for this number",
+    "message_to_self": "You cannot send messages to yourself",
+    "message_invalid_number": "The number you are trying to text is invalid or forbidden",
+    "message_only_text_to_external": "You can only send attachments to onoff numbers",
+    "forbidden_messaging_international": "International messaging is not allowed",
+    "messages_subscription_expired": "This number's subscription has expired",
+    "functionality_sms_not_supported": "SMS message cannot be sent",
+    "sms_to_this_country_not_supported_yet": "Oh no! Messaging to numbers from this country isn't supported yet.",
+    "new_message_files_only_onoff": "Files can only be sent to onoff contacts",
+    "multipart_only_friends": "Multimedia messages can only be sent to friends",
+    "threads_limit_invalid": "Limit invalid",
+    "out_of_credits": "Oh dear, it seems you've run out of credits.",
+    "password_invalid": "Password is invalid",
+    "login_b2b_user": "You are trying to connect to the regular version of onoff. Please connect from the onoff Business application, available on the App Store and Google Play.",
+    "unvalidated-source-category": "To be able to use your number, you need to validate your number via our mobile application “Onoff”. After validation, you can continue using Onoff web version.",
+    "b2c_user_login_b2b": "Hey! Seems like you are trying to connect to your Onoff account from the wrong url. To access your account visit: ",
+    "b2b_user_login_b2c": "Hey! Seems like you are trying to connect to your Onoff Business account. To continue calling and texting from your web browser visit: "
+  },
+  "Settings": {
+    "account_and_privacy": "",
+    "change_email": "Change email",
+    "change_password": "Change password",
+    "save": "Update",
+    "old_email": "Old email",
+    "new_email": "New email",
+    "repeat_email": "Confirm new email",
+    "email_change_success": "Email has been successfully changed",
+    "old_password": "Old password",
+    "new_password": "New password",
+    "repeat_password": "Repeat new password",
+    "password_invalid": "A password must be 6 characters, including at least one uppercase letter, one lowercase letter and one number",
+    "enter_old_password": "Enter old password",
+    "password_change_success": "Password has successfully been changed",
+    "contacts_sorting": "Contacts sorting",
+    "contacts_display": "Contacts display",
+    "last_first": "Last, First",
+    "first_last": "First, Last",
+    "AccountDeletion": {
+      "button": "Delete account",
+      "title": "Account deletion",
+      "reason_label": "Before you go...",
+      "reason_placeholder": "Tell us, why are you deleting your account?",
+      "reason_lackof_features": "Lack of features",
+      "reason_dont_enough": "Don’t use enough",
+      "reason_tech_issues": "Technical issues asd222222",
+      "reason_too_expensive": "Too expensive",
+      "reason_found_alternative": "Found an alternative",
+      "reason_other": "Other"
+    },
+    "application": "Application",
+    "language": "Language",
+    "privacy": "Privacy",
+    "hide_me": "Hide Me",
+    "makes_you_invisible": "\"Hide me\" makes you invisible in search results. You'll be unable to receive and send out friend requests.",
+    "photo_in_search": "Picture in search results",
+    "password_cant_be_empty": "password cannot be empty",
+    "enter_password_to_proceed": "Please enter your password to proceed...",
+    "password": "Password",
+    "log_out": "Logout",
+    "submit": "Submit",
+    "send": "send",
+    "what_you_think": "Tell us what you think",
+    "leave_feedback": "Leave Feedback",
+    "faq": "FAQ",
+    "terms": "Terms of Service",
+    "additional_info": "Additional Info",
+    "old_email_not_valid": "Old email is invalid",
+    "account": "Account",
+    "current_email": "Current email",
+    "confirm": "Confirm",
+    "please_wait": "Please wait...",
+    "phonebook": "Phonebook",
+    "err_first_name_empty": "First name cannot be empty",
+    "err_last_name_empty": "Last name cannot be empty",
+    "personal": "Personal",
+    "change_name": "Change Name",
+    "pl_first_name": "First Name",
+    "pl_last_name": "Last Name",
+    "subtitle_social": "Let's be friends",
+    "account_settings": "Account settings",
+    "full_name": "Full name",
+    "profile_information": "Profile information",
+    "email_address": "Email address",
+    "new_email_address": "New email address",
+    "save_changes": "Save changes",
+    "current_password": "Current password",
+    "set_new_password": "Set new password",
+    "application_language": "Application language",
+    "connected_devices": "Connected devices",
+    "preferences": "Preferences",
+    "billing": "Payment & Billing",
+    "credit_cards_management_title": "Credit cards management",
+    "credit_cards_default": "Default",
+    "credit_cards_expired": "Expired",
+    "billing_add_card_modal_title": "Add credit card",
+    "billing_card_number": "Card number",
+    "billing_expiration_date": "Expiration date",
+    "billing_CVV": "CVV",
+    "billing_add_card_warning_1": "This payment method will be set as your new default one. You will be able to change it in the \"Settings\" page.",
+    "billing_add_card_warning_2": "To check the validity of your credit card, we will charge you for 0.90€ and refund you immediately afterwards.",
+    "billing_add_card_validate": "Add Credit Card",
+    "billing_add_card_cancel": "Cancel",
+    "billing_card_number_error": "Card number error",
+    "billing_expiry_date_error": "Expiry date error",
+    "billing_cvv_error": "CVV error",
+    "account_settings_country": "Country",
+    "billing_error_too_many_cards": "The maximum amount of the saved cards is reached. If you want to add a new card, delete one of the saved cards to empty the slot.",
+    "billing_adding_credit_card_failed": "Something was wrong with your credit card details, please try again or use another credit card.",
+    "billing_credit_card_option_remove": "Remove card",
+    "billing_credit_card_option_set_as_default": "Set as default card",
+    "EmailAddress": {
+      "new_email_address_placeholder": "Enter new email address"
+    },
+    "Password": {
+      "current_password_placeholder": "Enter current password",
+      "new_password_placeholder": "Create new password",
+      "repeat_new_password_placeholder": "Repeat new password",
+      "sada": {
+        "contentstorage_type": "image",
+        "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/sada.png",
+        "altText": ""
+      }
+    },
+    "sidemenu_title": "Hello",
+    "account_plans": "Plan & Numbers",
+    "ModalAccountDeletion": {
+      "title": "Account deletion",
+      "warning": "Deleting an account is permanent and will take place immediately after your confirmation",
+      "confirmation_title": "sfsdf",
+      "confirmation_password_title": "For security purposes, we require you to enter your account password :",
+      "confirmation_checkbox_1": "All numbers will be deleted, and along them: call logs, messages, and voicemails",
+      "confirmation_checkbox_2": "All your contacts will be deleted from the app",
+      "confirmation_checkbox_3": "Any auto-renewable subscription will be cancelled",
+      "button_cancel": "No way!",
+      "button_confirm": "Delete my account",
+      "button_continue": "Continue"
+    },
+    "billing_add_card_warning_3": "This credit card will be saved to your account for future purchases. You can edit credit card details in “Settings”.",
+    "Receipts": {
+      "section_title": "Receipts",
+      "info_box": "If you purchased our service via the app, your invoices are accessible directly from your order history in the App Store or Play Store.",
+      "no_receipts_info": "No receipts yet",
+      "open_receipt": "Open",
+      "GroupInfo": {
+        "label_number": "Onoff number",
+        "label_plan": "",
+        "label_due_date": "Due date",
+        "label_amount": "Amount",
+        "value_premium": "Premium Plan",
+        "label_expiration_date": "Expiration date",
+        "label_status": "Status"
+      },
+      "GroupFooterMobile": {
+        "open_list": ""
+      },
+      "TableHeader": {
+        "receipt_number": "Receipt number",
+        "date": "Date",
+        "price": "Price"
+      },
+      "ModalReceiptsListMobile": {
+        "title": "History"
+      }
+    },
+    "Blocked": {
+      "title": "Blocked numbers",
+      "empty": "No blocked numbers",
+      "unblock": "Unblock",
+      "Notifications": {
+        "unblock_success_title": "Unblocked successfully",
+        "unblock_success_description": "You can now receive calls and SMS from this number",
+        "unblock_error_title": "Something went wrong",
+        "unblock_error_description": "Please retry unblocking the number",
+        "block_success_title": "asdasd",
+        "block_success_description": "You will not receive calls and SMS from this number",
+        "block_error_title": "Something went wrong",
+        "block_error_description": "Please retry blocking the number"
+      }
+    },
+    "DataError": {
+      "retry_description": "It appears that there was an error processing this request. Please try again.",
+      "retry_button": "Retry",
+      "no_data_label": "No data"
+    },
+    "set_language_button": "",
+    "set_language_notification_success_description": "Language preferences have been successfully set!",
+    "MultiDeviceManagement": {
+      "title": "Multi device management",
+      "tooltip": "You can connect up to {maxConnectedDevices} devices simultaneously."
+    },
+    "country_tooltip": "The country or region of your Onoff account is based on where you were when you signed up.",
+    "update_name_success": "Your name has been successfully changed",
+    "update_email_success": "Your email has been successfully changed!",
+    "set_language_notification_success_title": "Success!",
+    "Calling": {
+      "title": "Calling",
+      "Preferences": {
+        "calls_disable_incoming_ringtone_title": "Disable ringtone for all incoming calls",
+        "calls_disable_incoming_ringtone_description": "You won’t get sound notification, only the browser notification.",
+        "calls_enable_webrtc_hd_codec_title": "Enable HD calls (experimental feature)",
+        "calls_enable_webrtc_hd_codec_description": "Enjoy superior audio quality with improved clarity, richer tones, and better audio fidelity",
+        "calls_enable_webrtc_advanced_media_constraints_title": "Enable echo cancellation and noise suppression (experimental feature)",
+        "calls_enable_webrtc_advanced_media_constraints_description": "By reducing background noise and eliminating echoes, you can enjoy clearer and more natural-sounding conversations.",
+        "calls_enable_quality_survey_title": "Rate the calls",
+        "calls_enable_quality_survey_description": "Help us improve our product by taking our periodic call quality surveys."
+      }
+    },
+    "LegalLinks": {
+      "terms_and_conditions": "Terms & Conditions",
+      "privacy_policy": "Privacy Policy",
+      "sales_terms_and_conditions": "-"
+    },
+    "credit_cards_supported_brands_heading": "We accept:",
+    "credit_cards_3rd_party_links_heading": "Or link through:"
+  },
+  "General": {
+    "Validations": {
+      "email_invalid": "Email is invalid",
+      "password_mismatch": "Passwords do not match",
+      "password_hint": "Minimum of 6 characters, 1 uppercase letter, 1 lowercase letter, 1 number"
+    },
+    "Plans": {
+      "Names": {
+        "b2c_starter": "Starter Plan",
+        "b2c_premium": "Premium Plan",
+        "b2b_1": "Connect",
+        "b2b_2": "Advanced",
+        "b2b_3": "Max"
+      }
+    },
+    "SubscriptionStatus": {
+      "active": "Active",
+      "cancelled": "Cancelled",
+      "refunded": "Refunded"
+    },
+    "credit_card_added": "Credit card added!",
+    "Validations2": {}
+  },
+  "SideMenu": {
+    "add_number": "Add a Number",
+    "add_group": "Add a Number",
+    "number_porting": "Number porting",
+    "onoff_network": "onoff Network",
+    "settings": "Settings",
+    "add": "add",
+    "language": "language",
+    "card_giftcard": "Giftcard",
+    "invite_friends": "Invite Friends",
+    "build": "build",
+    "personalize_group": "Personalize your group",
+    "name": "Name",
+    "color": "Color",
+    "your_credit_balance": "Credit balance",
+    "purchase": "Credits",
+    "create_group": "Create Group",
+    "stealth_title": "Private  mode",
+    "stealth_enter_pin": "Enter PIN to disable Private Mode",
+    "passwords_dont_match": "Passwords do not match",
+    "stealth_step_1": "1. Turn on \"Private Mode\" and create a passcode",
+    "stealth_step_2": "2. Press hide on the sidebar and the number will disappear",
+    "stealth_step_3": "3. Slide / scroll down at the top of the sidebar to reveal the passcode prompt",
+    "enter_passcode": "Please enter a passcode",
+    "stealth_explanation": "\"Private Mode\" hides a number in the application. It is only accessible via passcode. Once hidden, its features are turned OFF.",
+    "next": "Next",
+    "confirm_passcode": "Please confirm the passcode",
+    "enter": "Enter",
+    "calling_not_possible": "Calling is not possible at this time"
+  },
+  "Categories": {
+    "options": "Options",
+    "ends_on": "Subscription ends on",
+    "expired": "Expired",
+    "calls": "Calls",
+    "messages": "Messages",
+    "voicemails": "Voicemails",
+    "name": "Name",
+    "color": "Color",
+    "stealth_mode": "Private Mode",
+    "expires": "Expires",
+    "renew": "Renew number",
+    "number_expired": "Number expired",
+    "btn_delete_number": "Delete number",
+    "call_off": "Calls are turned off",
+    "call_routing": "Calls routed to voicemail",
+    "message_off": "Messaging is turned off",
+    "voicemail_off": "Voicemails are turned off",
+    "hide_number": "Hide Number",
+    "btn_hide_number": "Hide",
+    "add_number": "Add a number",
+    "btn_add_number": "Add",
+    "expired_description": "Expired number, it will be automatically deleted in {days} days",
+    "expired_button_b2c": "Re-subscribe",
+    "expired_button_b2b": "Notify Admin",
+    "landline_number_info": "This is a landline number, messaging features are not available",
+    "expired_description_delete_soon": "Expired number, it will be automatically deleted very soon",
+    "unsubscribe": "Unsubscribe",
+    "unsubscribe_tooltip": "When you unsubscribe we will stop the auto-renewal of your number immediately. You will still be able to use your number until the expiration of current active period.",
+    "unsubscribe_popup_title": "Are you sure you want to unsubscribe?",
+    "unsubscribe_popup_description": "When you unsubscribe, we will stop all future charges for this number. You will still be able to use it until the expiration of current active period. After that your number will be expired.",
+    "unsubscribe_popup_confirm": "Unsubscribe",
+    "unsubscribe_popup_cancel": "Keep subscription",
+    "unsubscribe_end_info": "Subscription ends on {date}",
+    "Notifications": {
+      "unsubscribe_success_title": "We got your unsubscription request",
+      "unsubscribe_success_description": "You have been unsubscribed successfully",
+      "unsubscribe_error_title": "Oops, something went wrong",
+      "unsubscribe_error_description": "An error occurred with your request, but you can always try again."
+    },
+    "delete_number_tooltip": "When you delete a number it will be removed immediately from your account along all the call history, SMS and voicemails.",
+    "cancelled": "Cancelled",
+    "cancelled_description": "Your subscription ends on {date}",
+    "number_settings": "Number settings"
+  },
+  "Rates": {
+    "rates": "Rates",
+    "from": "From:",
+    "to": "To:",
+    "dont_worry": "Don't worry! You do not need to use onoff credits to make local calls.",
+    "unit_min": " / min",
+    "unit_sms": " / SMS",
+    "SMS_MOBILE": "Messages",
+    "SMS_LANDLINE": "Messages [Landline]",
+    "CALL_MOBILE": "Outgoing Calls [Mobile]",
+    "CALL_LANDLINE": "Outgoing Calls [Landline]",
+    "SMS_MOBILE_INCOMING": "Incoming Messages [Mobile]",
+    "SMS_LANDLINE_INCOMING": "Incoming Messages [Landline]",
+    "CALL_MOBILE_INCOMING": "Incoming Calls [Mobile]",
+    "CALL_LANDLINE_INCOMING": "Incoming Calls [Landline]"
+  },
+  "Category": {
+    "about": "About",
+    "notes": "Notes",
+    "contact_info": "Contact Info",
+    "ph_add_notes": "Click here to add notes",
+    "ph_email": "Email",
+    "img_edit_options_q": "What would you like to do with this picture?",
+    "img_edit": "Edit",
+    "img_upload": "Upload a picture",
+    "img_delete": "Delete",
+    "img_cancel": "Cancel",
+    "l_upload_image": "Upload image",
+    "l_remove_image": "Remove image",
+    "profile_pictures": "Profile pictures",
+    "carousel_next_slide": "NEXT",
+    "carousel_prev_slide": "PREV",
+    "CategorySelectPopUp": {
+      "title_default": "Default",
+      "title_other_numbers": "Other numbers",
+      "title_sending_number": "Sending number"
+    }
+  },
+  "CallLogs": {
+    "no_calls": "Select an item on the left to see more information about the call",
+    "notes": "Notes",
+    "incoming_call": "Incoming call",
+    "outgoing_call": "Outgoing call",
+    "missed_call": "Missed call",
+    "call_details_title": "Call Details",
+    "call_notes_title": "Call Notes",
+    "call_notes_placeholder": "You don't have any call notes saved for this call.",
+    "call_notes_button_readmore": "Read more",
+    "call_notes_button_readless": "Read less",
+    "call_notes_button_save": "Save",
+    "call_notes_button_cancel": "Cancel",
+    "transferred_call": "Transferred call",
+    "call_transfer_details": "This call was transferred to {contact}"
+  },
+  "Conversations": {
+    "ph_search": "Search",
+    "conversations": "conversations",
+    "new_message": "New message",
+    "all_messages": "All messages",
+    "unread_messages": "Unread messages"
+  },
+  "Messages": {
+    "message_excerpt_video": "Video message",
+    "message_excerpt_audio": "Audio message",
+    "message_excerpt_image": "Image message",
+    "select_messages": "Select messages",
+    "q_delete_conversation": "Are you sure you want to delete this conversation? \nIf you continue it will be deleted permanently.",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "messages": "messages",
+    "select_messages_by_clicking": "Select messages by clicking on them",
+    "close": "Close",
+    "you_have_sent_a_log_of_messages": "You have sent a lot of messages without receiving replies.",
+    "balance_resets_monthly": "This balance resets monthly and is lowered when you receive messages.",
+    "you_can_use_credits": "You can also agree to use credits once you've reached the limit.",
+    "out_of_balance": "Negative balance",
+    "send_using_credits": "Send using credits",
+    "wait_or_receive_sms": "Wait or receive messages",
+    "please_wait": "Please wait...",
+    "no_active_category": "Oups... it seems that you don't have an active number at the moment. Purchase a number and try again!",
+    "Notifications": {
+      "title_mms_not_supported": "Uppsss...",
+      "description_mms_not_supported": "MMS is not supported for this number.",
+      "delete_thread_success_title": "Message thread was deleted",
+      "delete_thread_success_description": "The thread was deleted successfully!"
+    },
+    "delete_conversation": "Delete conversation"
+  },
+  "Message": {
+    "video_not_supported": "Video is not supported",
+    "video_in_new_tab": "",
+    "audio_not_supported": "Your browser does not support audio elements"
+  },
+  "MessageForm": {
+    "ph_send_message": "Write a message...",
+    "ph_send_onoff_message": "Send onoff message"
+  },
+  "SearchListModal": {
+    "search_for_contact": "Select contact or enter phone number",
+    "pl_send_message_to": "To"
+  },
+  "Voicemails": {
+    "count_voicemails": "voicemails",
+    "voicemail": "Voicemail",
+    "date_created": "Date received",
+    "no_voicemails": "No voicemails yet!",
+    "not_received_voicemails": "Change your default greeting by clicking the microphone icon.",
+    "speaker_on": "Speaker ON",
+    "speaker_off": "Speaker OFF",
+    "notification_new_voicemail": "You received new voicemails!",
+    "record_voicemail": "Record voicemail",
+    "ph_new": "new"
+  },
+  "FooterNav": {
+    "copyright": "© onoff Telecom",
+    "spacer": "·",
+    "home": "Home",
+    "privacy": "Privacy",
+    "not_found": "Not Found"
+  },
+  "Universal": {
+    "language": "Language",
+    "Languages": {
+      "en": "English",
+      "fr": "Français"
+    },
+    "NumberTypes": {
+      "regular": "Regular",
+      "premium": "Premium",
+      "elite": "Elite"
+    },
+    "supportNumber": {
+      "firstName": "onoff",
+      "lastName": "Support"
+    },
+    "PhoneTypes": {
+      "mobile": "Mobile",
+      "main": "Main",
+      "home": "Home",
+      "work": "Work",
+      "other": "Other"
+    },
+    "EmailTypes": {
+      "home": "Home",
+      "work": "Work",
+      "other": "Other"
+    }
+  },
+  "Errors": {
+    "error": "Error",
+    "Warning": "Warning",
+    "oops": "Something went wrong, please try again or contact customer support",
+    "not_found": "Not Found",
+    "outgoingCalls": {
+      "b2b": {
+        "out-of-usage": "You don't have enough credits for this action. Please contact your account manager."
+      }
+    }
+  },
+  "Network": {
+    "assign_contact_to": "Assign Contact to:",
+    "new_friend_request": "You have a new friend request"
+  },
+  "FriendSuggestion": {
+    "add_friend": "Add a friend"
+  },
+  "FriendRequests": {
+    "count_friend_requests": "friend requests",
+    "friend_requests": "Friend Requests",
+    "accept": "Accept",
+    "decline": "Ignore"
+  },
+  "FriendView": {
+    "accept_friend": "Accept",
+    "decline_friend": "Ignore",
+    "email": "Email",
+    "send_friend_request": "Add as a friend",
+    "friend_requested": "Friend request sent"
+  },
+  "Fecha": {
+    "dayNamesShort": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thur",
+      "Fri",
+      "Sat"
+    ],
+    "dayNames": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "monthNamesShort": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sep",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "monthNames": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "amPm": [
+      "am",
+      "pm"
+    ],
+    "DoFn": "return D + [ `th`, `st`, `nd`, `rd` ][ D % 10 > 3 ? 0 : (D - D % 10 !== 10) * D % 10 ]"
+  },
+  "Contacts": {
+    "ph_search": "Search contacts",
+    "contacts_count": "Contacts",
+    "new_contact": "New contact",
+    "new": "New",
+    "contacts_string": "Contacts",
+    "add_new_contact": "Add a contact",
+    "onoff_contacts": "onoff Contacts",
+    "onoff_friends": "onoff Friends",
+    "simple_contact_updated": "Contact successfully saved",
+    "simple_contact_added": "Contact successfully added",
+    "onoff_unfriended": "You have unfriended this person",
+    "error_notes": "Oups your notes could not be updated",
+    "success_notes": "Your notes have been updated",
+    "Notifications": {
+      "add_contact_to_favorites_success_title": "Marked as favorite",
+      "add_contact_to_favorites_success_description": "Great! This contact is now part of your favorites",
+      "remove_contact_from_favorites_success_title": "Removed from favorites",
+      "remove_contact_from_favorites_success_description": "The contact has been removed as favorite",
+      "block_contact_success_title": "Contact is added to blocked list",
+      "block_contact_success_description": "Blocked contacts will no longer be able to call you or send you messages",
+      "unblock_contact_success_title": "Contact deleted from block list",
+      "unblock_contact_success_description": "This contact is now able to call you or send you messages",
+      "delete_contact_success_title": "Contact deleted",
+      "delete_contact_success_description": "Your contact “{displayName}” has been deleted",
+      "add_contact_title": "Contact added",
+      "add_contact_description": "You can find it in your Contact's list or add to favorite"
+    },
+    "Filter": {
+      "left_placeholder": "All contacts",
+      "right_placeholder": "Favourites"
+    },
+    "contact": "contact",
+    "contact_not_saved_contact": "This person is not saved to your contacts",
+    "contact_is_saved_contact": "The contact already exists in your local contacts",
+    "no_matches_found": "No matches found",
+    "refine_search_query": "Refine your search query"
+  },
+  "ContactInfo": {
+    "onoff_number": "onoff",
+    "btn_edit": "Edit",
+    "subtitle_company": "Company",
+    "subtitle_find_company": "Find company",
+    "subtitle_phone_number": "Contact number",
+    "subtitle_emails": "Emails",
+    "subtitle_notes": "Notes",
+    "pl_notes": "Click to add notes",
+    "modal_title_unfriend_contact": "Unfriend contact",
+    "btn_unfriend": "Unfriend",
+    "q_unfriend_contact": "Are you sure you want to unfriend this contact?",
+    "a_unfriend_contact_yes": "Unfriend",
+    "a_unfriend_contact_no": "No",
+    "modal_title_delete_contact": "Delete contact",
+    "q_delete_contact": "Are you sure you want to delete this contact?\nIf you continue it will be deleted permanently.",
+    "a_delete_contact_yes": "Delete",
+    "a_delete_contact_no": "Cancel",
+    "assigned_category": "Assigned category",
+    "pl_select_category": "---Select---",
+    "notification_notes_updated": "Notes updated",
+    "q_l1_block_contact": "Block contact?",
+    "q_l2_block_contact": "They won't be able to contact you in any way, shape or form through the app.",
+    "a_block_yes": "Block",
+    "a_block_no": "Cancel",
+    "q_l1_unblock_contact": "Unblock contact?",
+    "q_l2_unblock_contact": "Before you call this user, you need to unblock them.",
+    "a_unblock": "Unblock",
+    "subtitle_category": "Category",
+    "infobox_contact_blocked": "Blocked contacts will no longer be able to call you or send messages.",
+    "notes_button_save": "Save",
+    "notes_button_cancel": "Cancel",
+    "read_more": "Read more"
+  },
+  "ContactView": {
+    "new": "New",
+    "contact": "Contact",
+    "unfriend": "Unfriend",
+    "block": "Block",
+    "unblock": "Unblock",
+    "pl_first_name": "First Name",
+    "pl_last_name": "Last Name",
+    "pl_add_number": "Add number",
+    "pl_add_email": "Add email",
+    "pl_company": "e.g: Microsoft",
+    "pl_notes": "e.g: Where did you meet this person",
+    "notes": "Notes",
+    "err_contact_empty": "A contact should at least have a first or last name",
+    "pl_full_name": "Full name",
+    "email": "Email address",
+    "phone_number": "Phone number",
+    "pl_category": "Category",
+    "err_contact_phone": "phone number is not valid, please add the prefix country"
+  },
+  "ContactEditModal": {
+    "modal_title_add_contact": "Add new contact",
+    "modal_title_edit_contact": "Edit contact",
+    "btn_add_contact": "Add",
+    "btn_save_contact": "Save"
+  },
+  "CategoryModal": {
+    "no_categories": "You have no categories"
+  },
+  "Modals": {
+    "unfriend_contact": "Unfriend contact",
+    "delete_conversation": "Delete conversation",
+    "add_empty_category": "Add a Profile",
+    "search_contacts": "Search for contacts",
+    "select_category": "Select a category",
+    "stealth_mode": "Private Mode",
+    "delete_category": "Delete category",
+    "add_contact": "Add contact",
+    "edit_contact": "Edit contact",
+    "delete_contact": "Delete contact",
+    "block_contact": "Block contact",
+    "multimedia_preview": "Multimedia preview",
+    "delete_onoff_account": "Delete account",
+    "voicemail_listen": "Listen to the voicemail",
+    "write_message_from": "Write message from",
+    "SelectCategory": {
+      "ChooseCategory": "Choose category to call from",
+      "NoActive": "No active categories found. Please enable some and try again!"
+    },
+    "CallNotes": {
+      "title": "Call notes",
+      "placeholder": "Click here to type notes for this call",
+      "button_save": "Save",
+      "button_cancel": "Cancel",
+      "notification_succeeded_title": "Success!",
+      "notification_succeeded_description": "The call note saved successfully.",
+      "notification_failed_title": "Oops...",
+      "notification_failed_description": "Something went wrong while saving the call note. Please try again."
+    },
+    "CallDetails": {
+      "title": "Call details",
+      "call_duration": "Call duration",
+      "call_notes_placeholder": "Click here to type notes for this call",
+      "button_save": "Save",
+      "button_cancel": "Cancel",
+      "call_notes_title": "Call notes:",
+      "call_notes_label_draft": "Draft"
+    },
+    "RenewalPeriod": {
+      "title_with_number": "Select Renewal Period: {number}",
+      "button_cancel": "Cancel",
+      "button_update": "Update renewal period",
+      "info": "New subscription period will take effect after your current period ends. You will be charged upon activation.",
+      "SelectionItem": {
+        "description": "Billed as one payment of {price}",
+        "description_one_month": "Billed monthly",
+        "price": "{price}/month"
+      },
+      "nothing_to_select": "Sorry,  the option to update your subscription period is currently unavailable.",
+      "unsupported_purchase_source": "Unsupported purchase source. Only credit cards allowed.",
+      "title_with_offer": "Select renewal period for Premium Plan",
+      "checkbox_apply_to_premium": "+ Apply the change to the premium plan",
+      "checkbox_apply_to_all_numbers": "+ Apply the change to all numbers"
+    },
+    "ModalAddCreditCard": {
+      "CardDetails": {
+        "title": "Credit card details"
+      },
+      "Inputs": {
+        "firstName_placeholder": "First name",
+        "lastName_placeholder": "Last name",
+        "city_placeholder": "City",
+        "address_placeholder": "Address",
+        "zip_placeholder": "ZIP code"
+      },
+      "BillingAddress": {
+        "title": "Billing address"
+      }
+    },
+    "CallTransferring": {
+      "button_cancel": "Cancel",
+      "button_start_transferring": "Start transferring",
+      "heading_transfer_type": "Choose transfer type",
+      "heading_select_transferee": "Select transferee",
+      "search_placeholder": "Search",
+      "heading_recent_contacts": "Most recent contacts:",
+      "heading_new_number": "New number:",
+      "heading_cold_transfer": "Direct Transfer",
+      "subheading_cold_transfer": "Call is transferred directly to the next agent.",
+      "heading_warm_transfer": "Chat & Transfer",
+      "subheading_warm_transfer": "Talk to the next agent before tranferring.",
+      "diagram_a": "Agent A",
+      "diagram_b": "Agent B",
+      "diagram_c": "Ask first",
+      "error_invalid_number": "Number validation failed.",
+      "error_generic": "The call transfer was unsuccessful. Please, try again.",
+      "success_notification": "Call transfer initiated successfully.",
+      "no_results": "No matching contact was found or the number is invalid.",
+      "coming_soon": "Coming soon"
+    },
+    "CallTransferAnnouncement": {
+      "title": "Call Transfer is Now Live!",
+      "content": "You can now transfer calls to your colleagues directly during an ongoing call. Simply click the three dots icon, select the type of transfer — {highlighted_content} — and choose your colleague. Start transferring calls today!",
+      "button_title": "Got it",
+      "highlighted_content": "Direct Transfer for immediate handoff or Chat & Transfer to speak with the agent first"
+    }
+  },
+  "Dropdown": {
+    "default_placeholder": "Select..."
+  },
+  "Pubnub": {
+    "incoming_message": "Incoming message",
+    "incoming_message_type_image": "Image file",
+    "incoming_message_type_video": "Video file",
+    "added_as_friend": "added you as a friend"
+  },
+  "BrowserCap": {
+    "content_device_type_not_supported": "Try our app! For a better experience feel free to use our mobile app",
+    "link_download_app_b2c": "https://onoff.app.link/organic/en",
+    "button_text": "Download the app",
+    "link_download_app_b2b": "https://onoff.app.link/OnoffBusinessApp"
+  },
+  "ErrorPage": {
+    "page_not_found": "Page not found",
+    "page_does_not_exist": "This page you requested could not be found.\nLet’s go back to the homepage.",
+    "go_back": "Go back",
+    "or_head_over": ", or head over to the",
+    "home_page": "Homepage",
+    "choose_new_direction": "to choose a new direction.",
+    "error": "Error"
+  },
+  "Sentry": {
+    "react_error_boundary_title": "Oops...\nSomething went wrong",
+    "react_error_boundary_description": "There seems to be a problem on our side, we are working on a solution. Please try again later.",
+    "react_error_boundary_button_text": "Refresh page"
+  },
+  "Voip": {
+    "incoming": "incoming",
+    "audio": "Audio",
+    "video": "Video",
+    "call": "Call",
+    "video_calls_not_supported": "Video calls are not supported on this browser",
+    "accept": "Accept",
+    "decline": "Decline",
+    "incoming_video_call": "incoming video call",
+    "incoming_audio_call": "incoming audio call"
+  },
+  "NumberInfo": {
+    "modal_content_label": "Information",
+    "modal_title": "Information",
+    "your_number": "Your number",
+    "number": "Number",
+    "download_app_to_renew": "Download onoff App or Android in order to renew your plan",
+    "app_store": "App Store",
+    "play_store": "Play Store",
+    "min": "calls",
+    "call_time_month": "call time / month",
+    "sms": "SMS",
+    "messages_month": "messages / month",
+    "expiration": "Expiration",
+    "reset_on": "Monthly usage will reset on",
+    "call_time_used": "Call time used",
+    "read_more": "Read more",
+    "SMALL": "Small Plan",
+    "MEDIUM": "Medium Plan",
+    "LARGE": "Large Plan",
+    "statistics_unavailable_title": "Statistics unavailable",
+    "statistics_unavailable_description": "This package doesn't have a plan associated with it.",
+    "modal_title_details": "Details",
+    "back_to_summary": "Back to summary",
+    "download_app_to_purchase": "Download onoff App on iOS or Android in order to purchase new plan",
+    "plan_expired": "Plan expired",
+    "unlimited": "Unlimited"
+  },
+  "messages_month": "messages / month",
+  "InputErrors": {
+    "General": {
+      "Blank": "{inputName} can't be blank",
+      "EmailInvalid": "Invalid email",
+      "MaxLength": "{inputName} is too long (maximum is {length} characters)",
+      "MinLength": "{inputName} is too short (minimum is {length} characters)",
+      "PasswordInvalid": "Password must contain minimum of 6 characters, 1 uppercase letter, 1 lowercase letter, 1 number",
+      "PasswordDoesntMatch": "The passwords you have entered do not match.",
+      "PhoneNumberInvalid": "Invalid phone number",
+      "PhoneNumberLengthInvalid": "phone number must be at least {length} character",
+      "required": "This field is required"
+    },
+    "InputName": {
+      "email": "Email",
+      "password": "Password"
+    },
+    "AddContact": {
+      "fullnameRequired": "First or last name field is mandatory",
+      "fullnameMaxLength": "50 characters limit",
+      "phoneRequired": "Phone number field is mandatory"
+    }
+  },
+  "Pages": {
+    "PasswordRecovery": {
+      "RequestRecovery": {
+        "Title": "Password recovery",
+        "Description": "Enter the email associated with your account and we’ll send an email with instructions to reset your password.",
+        "EmailLabel": "Email address",
+        "EmailInputPlaceholder": "email@address.com",
+        "ResetPassword": "Reset password",
+        "BackToLogin": "Back to Login page"
+      },
+      "ChangePassword": {
+        "Title": "Password recovery",
+        "Description": "Your memory play tricks with you? 😰\nNo problem, we have a solution!",
+        "PasswordLabel": "New password",
+        "RepeatPasswordLabel": "Repeat password",
+        "PasswordPlaceholder": "Enter password",
+        "ChangePassword": "Change password"
+      },
+      "EmailSent": {
+        "Title": "Check your email",
+        "Description": "We send password recovery instruction to: { email }",
+        "BackToLogin": "Back to Login page"
+      },
+      "PasswordChanged": {
+        "Title": "Successful password change!",
+        "Description": "Now you can use your new password to log in to your account! 👍",
+        "BackToLogin": "Done! Log in now"
+      },
+      "Errors": {
+        "request_error_title": "Oops...",
+        "request_error_description": "Something went wrong while trying to request the change. Please try again.",
+        "verify_error_title": "Oops...",
+        "verify_error_description": "Something went wrong while trying to verify your identity. Please submit another password recovery request.",
+        "change_error_title": "Oops...",
+        "change_error_description": "An error occurred while attempting to change your new password. Please try again."
+      }
+    },
+    "Settings": {
+      "Plans": {
+        "UserOffer": {
+          "title": "My Plan",
+          "Banner": {
+            "title_starter": "Starter Plan",
+            "title_premium": "Premium Plan",
+            "label_platform": "Platform",
+            "value_platform_starter": "Only Mobile",
+            "value_platform_premium": "Web & Mobile App",
+            "label_date_expiration": "Expires On",
+            "label_date_renewal": "Renewal Date",
+            "Options": {
+              "button_unsubscribe": "Unsubscribe"
+            },
+            "upgrade_label": "Upgrade to unlock all the power of Onoff",
+            "upgrade_button": "Upgrade your plan",
+            "label_duration": "Renewal Period",
+            "value_duration": "{duration} {duration, plural, one {month} other {months}}"
+          },
+          "BannerB2B": {
+            "info_b2b_1": "Make your business calls efficiently and effortlessly using the web or mobile app. {link}.",
+            "link_text": "Explore our plans",
+            "link_address": "https://www.onoffbusiness.com/plans/",
+            "info_b2b_2": "The Advanced Plan gives you greater efficiency, enjoy the integrations to log calls and SMS automatically in your CRM and much more! {link}",
+            "info_b2b_3": "All the features you need to succeed in your business. {link}.",
+            "info_b2b_no_type": "You don't have a plan yet :("
+          }
+        },
+        "General": {
+          "label_date_subscription_active": "Renewal Date",
+          "label_date_cancelled": "Expires On",
+          "label_date_expired": "Deletion date",
+          "value_unlimited": "Unlimited",
+          "label_date_purchase_active": "Expires On"
+        },
+        "Numbers": {
+          "title": "My numbers",
+          "get_number_button_text": "+ Get a new number",
+          "no_numbers_text": "You don't have any numbers yet. Click below to purchase your first number.",
+          "no_numbers_cta": "Get a number",
+          "DetailsCard": {
+            "label_number_national": "National number",
+            "label_number_international": "International Number",
+            "label_sms": "National SMS/MMS",
+            "label_calls": "Calls",
+            "value_sms": "{used}/{total} SMS",
+            "value_calls": "{used}/{total} Minutes",
+            "label_number_landline": "Landline number",
+            "value_sms_landline": "N/A",
+            "value_error": "Something went wrong",
+            "label_duration": "Renewal Period",
+            "value_duration": "{duration} {duration, plural, one {month} other {months}}"
+          },
+          "error_notification": "It appears that there was an error processing this request. Please try again.",
+          "error_notification_retry_button": "Retry",
+          "no_numbers_text_b2b": "You don't have a phone number assigned yet. Please contact your administrator to request one."
+        }
+      }
+    }
+  },
+  "DateTime": {
+    "today": "Today",
+    "yesterday": "Yesterday"
+  },
+  "Components": {
+    "Notifications": {
+      "Error": "Error",
+      "Warning": "Warning!",
+      "Success": "Success!",
+      "Processing": "Processing...",
+      "Info": "Info",
+      "defaultError": "Something went wrong, please try to refresh the page or contact support."
+    }
+  },
+  "DialPad": {
+    "enter_name_or_number": "Enter name or number",
+    "country_picker": "Select a country",
+    "search_results": "Search results",
+    "most_recent_contacts": "Most recent contacts",
+    "default_call_number": "Default calling number",
+    "others_call_number": "Other numbers",
+    "search_country_placeholder": "Enter country name"
+  },
+  "DropdownPhoneNumber": {
+    "search_no_results": "No results found"
+  },
+  "Devices": {
+    "modal_device_logout_title": "Before login...",
+    "modal_device_logout_body": "You have already {maxConnectedDevices} devices connected to your account, please choose one to disconnect and continue to login.",
+    "connected_device_list_disconnect": "Disconnect",
+    "unknown_device": "Unknown device"
+  },
+  "Header": {
+    "Actions": {
+      "button_trigger": "My Account",
+      "button_logout": "Logout",
+      "button_upgrade_to_premium": "Upgrade to Premium"
+    }
+  },
+  "SubHeader": {
+    "Actions": {
+      "make_a_call": "Make a call",
+      "new_message": "New message"
+    },
+    "Common": {
+      "calls": "Calls",
+      "messages": "Messages",
+      "voicemails": "Voicemails",
+      "contacts": "Contacts"
+    }
+  },
+  "SideMenuCategories": {
+    "button_support": "Help Center",
+    "balance_current": "Current balance"
+  },
+  "Purchase": {
+    "Heading": {
+      "title": "Renewal information",
+      "description": "Automatic renewal will occur every month and the card associated with your account will be charged. Renewal can be cancelled at any time."
+    },
+    "Summary": {
+      "info_text": "By clicking the confirm purchase button, you agree to start with your subscription immediately. To validate your credit card, we will charge you a few cents and refund you immediately afterwards. Onoff will automatically renew your subscription and charge the corresponding fees to your credit card every month unless you cancel. You can cancel your subscription at any time to avoid any further debits. ",
+      "title": "Summary",
+      "label_phone_number": "Phone number",
+      "label_email": "Email",
+      "label_total_fee": "Total fee",
+      "value_total_fee_month": "month"
+    },
+    "Submission": {
+      "button_submit": "Renew subscription",
+      "button_cancel": "Cancel"
+    },
+    "CreditCardManagement": {
+      "title": "Select payment method",
+      "button_show_all_cards": "Show all credit cards",
+      "Modal": {
+        "title": "Select credit card",
+        "button_continue": "Continue",
+        "button_cancel": "Cancel"
+      }
+    },
+    "Notifications": {
+      "success_title": "Re-subscribed Successfully!",
+      "success_description": "Hooray! Your number is active again. Now you can make calls and send messages.",
+      "error_title": "Payment error!",
+      "error_description_general": "Unfortunately, something went wrong. Please check your credit card details and try again. If you have any questions, please feel free to contact our support team.",
+      "error_description_too_many_cards": "The maximum amount of the saved cards is reached. If you want to add a new card, delete one of the saved cards to empty the slot.",
+      "success_button": "Main menu",
+      "error_description_add_credit_card": "Something was wrong with your credit card details, please try again or use another credit card.",
+      "error_description_payment_declined": "Payment was declined. Error code: {codePaymentResponse}",
+      "error_description_payment_failed": "Unfortunately, something went wrong. Please check your credit card details and try again. If you have any questions, please feel free to contact our support team.",
+      "error_description_payment_method_expired": "Your credit card has expired. Add another card!",
+      "error_description_payment_pending": "Unfortunately, something went wrong. Please check your credit card details and try again. If you have any questions, please feel free to contact our support team.",
+      "error_description_pd_insufficient_funds": "The amount exceeds the available funds or the payment limit of the card. Try using a different card",
+      "error_description_pd_invalid_payment": "Your bank has declined the transaction. Please check your credit card information or contact your bank if the problem persists",
+      "error_description_pd_response_timeout": "Response received too late / timeout",
+      "error_description_pd_restricted_card": "A restriction is placed on your card and we can't process the payment at the moment. Please contact your bank or use a different card",
+      "error_description_pd_security_violation": "Security violation. We weren't able to charge your card",
+      "price_updated_title": "Updating price",
+      "price_updated_description": "The price of your number has been updated based on your location and credit card country"
+    },
+    "Error": {
+      "title": "Oops...\nSomething went wrong",
+      "description_global": "Unfortunately, something went wrong. Click the button below to check the payment information and try again.",
+      "button_return": "Back to payment information"
+    },
+    "CreditCard": {
+      "badge_default": "Default",
+      "badge_expired": "Expired",
+      "button_remove_card": "Remove card",
+      "button_set_as_default": "Set as default card",
+      "button_add_new_card": "Add new card"
+    },
+    "BuyerCountryMismatch": {
+      "title": "Before you pay...",
+      "description": "There seems to be a mismatch between your location and the country of your credit card.",
+      "differentPriceDisclaimer": "You can either proceed to the payment using this credit card with an updated price of {price}, or use a credit card issued in {countryName}",
+      "confirmPurchase": "Confirm purchase",
+      "changeCreditCard": "Change credit card"
+    },
+    "PaymentMethodSelection": {
+      "title": "Select payment method",
+      "credit_card_label": "Card",
+      "google_pay_label": "Google Pay"
+    }
+  },
+  "Notifications": {
+    "Browser": {
+      "title_calls": "Incoming call from",
+      "title_messages": "New message from",
+      "title_voicemails": "New voicemail from",
+      "body_calls": "You have a new call. Click here to answer it",
+      "body_messages": "{body}",
+      "body_voicemails": "You have a new voicemail. Click here to listen to it"
+    },
+    "Toast": {
+      "title_success": "Success!",
+      "title_error": "Oups...",
+      "title_warning": "Attention",
+      "title_info": "Info",
+      "description_success": "Task completed successfully!",
+      "description_error": "Something went wrong",
+      "description_warning": "There might be a problem with this request. Try again if needed",
+      "description_info": "Check out our FAQ to know more about our awesome features"
+    },
+    "Popup": {
+      "Title": {
+        "premium_offer_webapp": "You are all set!",
+        "premium_offer_pubnub": "Premium unlocked!"
+      },
+      "Description": {
+        "premium_offer_webapp": "It's time to start using our Premium features. Hope you have a good time.",
+        "premium_offer_pubnub": "Now you can use Onoff Premium features."
+      },
+      "Button": {
+        "premium_offer_webapp": "Let's Go",
+        "premium_offer_pubnub": "Great!"
+      }
+    },
+    "LandlineNumbers": {
+      "title": "SMS features are not available on a landline number",
+      "description": "You have currently been assigned a landline number, reach out to the Onoff Business admin in your company to request a mobile number!"
+    }
+  },
+  "PageEmptyState": {
+    "Calls": {
+      "title_b2b": "It’s so empty here...",
+      "title_b2c": "No call history for now",
+      "description_b2b": "Feel like calling someone?",
+      "description_b2c": "Once you will have a call log you can see it here",
+      "button_b2b": "Make a call",
+      "button_b2c": "Make a call"
+    },
+    "Messages": {
+      "title": "It’s so empty here...",
+      "description": "Why not try texting someone?",
+      "button": "Write a message",
+      "title_landline_numbers": "How would you like to send and receive SMS?",
+      "description_landline_numbers": "You have currently been assigned a landline number, reach out to the Onoff Business admin in your company to request a mobile number!"
+    },
+    "Voicemails": {
+      "title": "No voicemails for now",
+      "description": "When you have voicemails you can check it here"
+    },
+    "Contacts": {
+      "title": "It seems like you dont have any contacts now",
+      "description": "Let's add first contact together!",
+      "button": "Add a contact"
+    }
+  },
+  "ModalNewThread": {
+    "receivers_limit": "The limit of 20 receivers has been reached",
+    "title": "New message",
+    "contact_field_placeholder": "Enter contact name or number",
+    "invalid_recipient_in_list": "Invalid recipient. Check your list before sending the message",
+    "selected_remaining_contacts_count": "{count} more",
+    "Notifications": {
+      "success_title": "Message sent",
+      "success_description": "Your message has been successfully sent"
+    }
+  },
+  "SideBarSearch": {
+    "placeholder": "Search"
+  },
+  "ModalRecipientsInfo": {
+    "modal_title": "Recipients info",
+    "list_title": "recipients"
+  },
+  "InfoRow": {
+    "ContactsInfo": {
+      "contact_full_name": "Full name",
+      "contact_company": "Company",
+      "contact_category": "Category",
+      "contact_phone_number": "Phone number",
+      "contact_email": "Email",
+      "contact_notes": "Notes",
+      "empty": "Empty",
+      "assignee": "Contact owner",
+      "url": "CRM link"
+    }
+  },
+  "InputSearchCountry": {
+    "placeholder": "Enter country name or code"
+  },
+  "ModalSelectCountry": {
+    "modal_title": "Select country"
+  },
+  "InputContactPhoneNumber": {
+    "label": "Phone number",
+    "placeholder": "Add phone number"
+  },
+  "CallsPage": {
+    "all_calls": "All calls",
+    "missed_calls": "Missed calls",
+    "Notifications": {
+      "delete_call_log_success_title": "Calling history deleted",
+      "delete_call_log_success_message": "Your call history has been successfully deleted"
+    },
+    "popup_delete_call_log_title": "Delete call",
+    "popup_delete_call_log_confirm": "Delete",
+    "popup_delete_call_log_cancel": "Keep it",
+    "popup_delete_call_log_description": "Are you sure? If you continue you will lose all notes, recordings and etc linked to this call."
+  },
+  "InputContactEmail": {
+    "placeholder": "Add email address"
+  },
+  "FormAddContact": {
+    "phoneLabel": "Phone number",
+    "emailLabel": "Email address",
+    "addPhoneButton": "Add another phone number",
+    "addEmailButton": "Add another email address",
+    "firstNamePlaceholder": "First name",
+    "firstNameLabel": "Full name",
+    "lastNamePlaceholder": "Last name",
+    "companyPlaceholder": "e.g Microsoft",
+    "companyLabel": "Company",
+    "categoryLabel": "Category",
+    "notesPlaceholder": "e.g. Where did you meet that person",
+    "notesLabel": "Notes",
+    "crmContactOverwriteWarning": "Contact information will be overwritten with the data coming from the CRM",
+    "categoryExpiredWarning": "Contact is assigned to an expired number"
+  },
+  "ModalAddContact": {
+    "addTitle": "Add new contact",
+    "cancelButtonText": "Cancel",
+    "editTitle": "Edit contact",
+    "confirmAddButtonText": "Add contact",
+    "confirmEditButtonText": "Save changes"
+  },
+  "NewCalls": {
+    "info": "Info",
+    "message": "Message",
+    "add": "Add"
+  },
+  "PhotoInputCommon": {
+    "download": "Change photo",
+    "delete": "Remove photo",
+    "change_photo": "Change photo"
+  },
+  "ModalPremiumPlan": {
+    "Unsubscribe": {
+      "title": "Are you sure you want to unsubscribe?",
+      "description": "By unsubscribing you will lose access to all the features included in the Premium Plan after the expiration date of the current period",
+      "info_box": "You will be missing out on all these cool features, especially this web application",
+      "button_confirm": "Unsubscribe",
+      "button_cancel": "Keep it",
+      "Notification": {
+        "success_title": "Unsubscribed from premium offer",
+        "success_description": "You can still use your Premium plan until {expirationDate}"
+      }
+    },
+    "Features": {
+      "title_webapp_access": "Web App",
+      "description_webapp_access": "Make & receive calls, send & receive SMS via Web App.",
+      "title_on_off_scheduling": "On/Off Scheduling",
+      "description_on_off_scheduling": "Turn your number on/off automatically.",
+      "title_limits_calls_sms": "More minutes and SMS",
+      "description_limits_calls_sms": "Calling much? Enjoy higher calling and SMS capacity per month",
+      "title_multi_device_support": "Multi Device Support",
+      "description_multi_device_support": "Access your number from any smartphone, laptop or tablet.",
+      "title_onoff_calls": "Onoff Call",
+      "description_onoff_calls": "GSM call quality without internet connection in mobile app. Receive calls directly to your SIM.",
+      "title_call_notes": "Call Notes",
+      "description_call_notes": "Take and save notes during your calls (iOS and Android coming soon).",
+      "title_private_mode": "Private Mode",
+      "description_private_mode": "Hide your number and Onoff contacts quickly to keep your privacy.",
+      "title_sms_scheduling": "SMS Scheduling",
+      "description_sms_scheduling": "Schedule your SMS to be sent in any date & time you choose.",
+      "title_calls_over_internet": "Make calls over internet",
+      "description_calls_over_internet": "You don’t have to use your SIM plan for your outgoing calls.",
+      "title_voicemail_transcription": "Voicemail Transcription",
+      "description_voicemail_transcription": "Choose to read or listen to your voicemails on iOS.",
+      "title_multi_lang_voicemail": "Multi-language Voicemail",
+      "description_multi_lang_voicemail": "Record your voicemail greeting in the language of your choice (FR, EN, PT, AR)."
+    },
+    "Info": {
+      "title": "Premium",
+      "description": "Get premium now and enjoy all these features for all of your Onoff numbers."
+    },
+    "Upgrade": {
+      "title": "Go Premium",
+      "description": "Take advantage of all Premium features with all of your numbers by upgrading to Premium.",
+      "button_confirm": "Upgrade to Premium",
+      "footer_title": "One subscription for all of your numbers",
+      "footer_price_info": "Only {priceInformation}"
+    },
+    "Trial": {
+      "title": "Start Premium Free Trial",
+      "description": "Upgrade your account to Premium, and get access to advanced features with the Premium Plan for all your numbers.",
+      "info_box": "Enjoy a free premium trial to explore advanced features without commitment. After the trial period, the subscription fee will be automatically charged to your account. You can manage or cancel your subscription at any time through the settings on our web application.",
+      "footer_title": "Auto-renews for {price} / 1 month",
+      "footer_price_info": "{price} / free trial",
+      "button_confirm": "Free trial ({period})",
+      "period_one_week": "7 days",
+      "period_one_month": "1 month"
+    },
+    "Plans": {
+      "yearly": "Yearly",
+      "monthly": "Monthly",
+      "monthly_price": "{price}/mo",
+      "yearly_price": "{price}/year"
+    }
+  },
+  "Integrations": {
+    "contact_not_found": "Contact not found in your CRM",
+    "ExportContactModal": {
+      "title": "Export contact to CRM",
+      "description": "I agree to the {button} and authorize creating a contact in the integrated app.",
+      "export": "Export",
+      "exported": "Exported",
+      "retry": "Retry",
+      "ErrorToast": {
+        "title": "Oops, something went wrong",
+        "description": "An error occurred while exporting your contact. Try again!"
+      },
+      "description_button_title": "conditions",
+      "disclaimer_content": "Under the General Data Protection Regulation UE 2016/679, you are considered as a Data Controller of your Contact files. Such file is considered as Personal Data. Accordingly, when you process and/or export a file with a Personal data content to a third part application, OnOff Telecom is not responsible anymore for the use and the processing of the file by you and the recipient. As a result, you assume all responsibility on the file as a Data Controller pursuant to Regulation UE 2016/679, including the fact that you have a lawful basis for processing such file, and sufficient security measures to protect the file.",
+      "disclaimer_title": "Disclaimer"
+    }
+  },
+  "PageUnFocusedState": {
+    "Calls": {
+      "title": "See your call details here!",
+      "description": "Select a call from the list to see more details"
+    },
+    "Messages": {
+      "title": "Send and receive messages",
+      "description": "Select a thread from the list to start communicating"
+    },
+    "Voicemails": {
+      "title": "Check your Voicemails here",
+      "description": "Select an item from the list to listen to the voicemail"
+    },
+    "Contacts": {
+      "title": "View contact details",
+      "description": "Select a contact from the list to see more details"
+    }
+  },
+  "Layouts": {
+    "InfoBar": {
+      "new_app_url_b2c": "We are updating the URL to access this website. Please use: {newURL} to connect to your Web App. Don't forget to update it in your favorites!",
+      "new_app_url_b2b": "We are updating the URL to access this website. Please use: {newURL} to connect to your Web App. Don't forget to update it in your favorites!",
+      "pubnub_has_missing_pushes": "Your Internet connection is lost and restored successfully but you have missing data. Please {buttonText} to refresh the app.",
+      "pubnub_has_missing_pushes_button_text": "click here",
+      "sip_calls_multiple_browser_tab": "Multiple Tabs Detected. Calling features can only be used in one tab at a time. Please switch to the associated tab or {buttonText} to make this tab active again. Please note that if you have an ongoing call in another tab, it may be affected when you switch to this tab.",
+      "sip_calls_multiple_browser_tab_button_text": "click here",
+      "sip_calls_unavailable_incoming": "You have enabled the 'Onoff Calls' feature via the mobile app. Please note that incoming calls in your web browser will be disabled during this time.",
+      "browser_recommendation": "For the best web app experience, we recommend using Google Chrome or Safari. {buttonText} to hide this message.",
+      "browser_recommendation_button_text": "Click here",
+      "microphone_permission": "To use the app, please ensure that microphone permission is granted.",
+      "PermissionToPlayAudio": {
+        "error_after_manual_check": "Browser interaction is required to play incoming call ringtone. {dismissText} to hide this message.",
+        "error_after_incoming_call": "Browser was unable to play incoming call ringtone. {dismissText} to dismiss",
+        "dismiss_text": "Click here"
+      }
+    }
+  },
+  "Search": {
+    "title_no_results": "No results for “{searchString}”",
+    "description_no_results": "Check the spelling or try a new search",
+    "calls_filter_no_results": "No missed calls",
+    "messages_filter_no_results": "No unread messages",
+    "voicemails_filter_no_results": "No new voicemails",
+    "contacts_filter_no_results": "No favourite contacts"
+  },
+  "VoicemailsPage": {
+    "all_voicemails": "All voicemails",
+    "new_voicemails": "New voicemails",
+    "block_contact": "Block contact",
+    "unblock_contact": "Unblock contact",
+    "popup_delete_voicemail_title": "Delete voicemail",
+    "popup_delete_voicemail_confirm": "Delete",
+    "popup_delete_voicemail_cancel": "Keep it",
+    "popup_delete_voicemail_description": "Are you sure you want to delete this voicemail?\nIf you continue it will be deleted permanently.",
+    "Notifications": {
+      "delete_voicemail_success_title": "Voicemail deleted",
+      "delete_voicemail_success_message": "Voicemail has been successfully deleted"
+    }
+  },
+  "SIP": {
+    "Notifications": {
+      "WssServersAllFailure": {
+        "title": "Oops...",
+        "description": "An error has occurred, and we are working to fix the problem! In the meantime, refresh the page and try again after a few minutes. (REF: WssServersAllFailure)"
+      },
+      "UserAgentCreationFailure": {
+        "title": "Oops...",
+        "description": "An error has occurred, and we are working to fix the problem! In the meantime, refresh the page and try again after a few minutes. (REF: UserAgentCreationFailure)"
+      },
+      "MakeOutgoingCallFailure": {
+        "title": "Oops...",
+        "description": "An error has occurred, and we are working to fix the problem! In the meantime, refresh the page and try again after a few minutes. (REF: MakeOutgoingCallFailure)"
+      },
+      "SIPFailure": {
+        "title": "Oops...",
+        "description": "An error has occurred, and we are working to fix the problem! In the meantime, refresh the page and try again after a few minutes. (REF: SIPFailure)"
+      },
+      "CallAnswerFailure": {
+        "title": "Oops...",
+        "description": "An error has occurred, and we are working to fix the problem! In the meantime, refresh the page and try again after a few minutes. (REF: CallAnswerFailure)"
+      },
+      "CallMuteFailure": {
+        "title": "Oops...",
+        "description": "Something went wrong while trying to mute your call. Try again."
+      },
+      "CallUnMuteFailure": {
+        "title": "Oops...",
+        "description": "Something went wrong while trying to unmute your call. Try again."
+      },
+      "CallHoldFailure": {
+        "title": "Oops...",
+        "description": "Something went wrong while trying to put on hold your call. Try again."
+      },
+      "CallUnHoldFailure": {
+        "title": "Oops...",
+        "description": "Something went wrong while trying to resume this call. Try again."
+      },
+      "CallDTMFFailure": {
+        "title": "Oops...",
+        "description": "Something went wrong while entering this number. Try again."
+      },
+      "CallDTMFNotSupported": {
+        "title": "Oops...",
+        "description": "Sending tones are not supported for this call."
+      },
+      "CallOutgoingDuplication": {
+        "title": "Oops...",
+        "description": "There is already an ongoing call to this same number."
+      },
+      "CallOutgoingSecondOne": {
+        "title": "Oops...",
+        "description": "You already have an active call, please wait until it is finished before starting a new call."
+      },
+      "CallOutgoingMaximumSessions": {
+        "title": "Oops...",
+        "description": "You have reached the maximum allowed number of simultaneous calls."
+      },
+      "MediaPermissionIncoming": {
+        "title": "Microphone permission needed",
+        "description": "Someone is calling you right now, please grant the microphone permission."
+      },
+      "MediaPermissionOutgoing": {
+        "title": "Microphone permission needed",
+        "description": "If you want to make a call, please grant the microphone permission first!"
+      },
+      "WebRTC": {
+        "Busy": {
+          "title": "Busy",
+          "description": "The callee is currently busy and unable to answer your call. Please try again later."
+        },
+        "NotFound": {
+          "title": "Number Unavailable",
+          "description": "The number you dialled is currently unavailable or does not exist. Please check the number and try again."
+        },
+        "Failed": {
+          "title": "Oops...",
+          "description": "There appears to be an issue with your call. Please check your internet connection and try again. If the problem persists, please contact our support team for assistance. (REF: SIP WebRTC Session Failed)"
+        }
+      },
+      "MediaPermissionIncomingCall": {
+        "title": "Microphone permission needed",
+        "description": "To answer the call, please grant the microphone permission first."
+      }
+    },
+    "Calls": {
+      "UI": {
+        "state_call_on_hold": "On hold",
+        "state_call_in_progress": "Connecting...",
+        "state_call_ringing": "Ringing...",
+        "state_call_incoming": "Incoming call...",
+        "state_call_ended": "Call ended",
+        "button_more_info": "Call details",
+        "button_dismiss": "Dismiss",
+        "Contacts": {
+          "button_contact_info": "Contact info",
+          "button_number_info": "Number info",
+          "label_fullname": "Full name",
+          "label_company": "Company",
+          "label_category": "Category",
+          "label_phonenumber": "Phone number",
+          "label_email": "Email",
+          "value_empty": "Empty",
+          "switch_information": "Information",
+          "switch_crm": "CRM"
+        },
+        "state_call_connecting": "Connecting...",
+        "ButtonTooltips": {
+          "hold": "Put call on hold",
+          "resume": "Resume call",
+          "dtmf_open": "Open dial pad",
+          "mute": "Turn off microphone",
+          "unmute": "Turn on microphone",
+          "notes": "Take notes",
+          "dtmf_close": "Close dial pad",
+          "answer": "Answer",
+          "end_call": "End call",
+          "call_transfer": "Call transfer"
+        },
+        "state_call_initializing": "Connecting...",
+        "button_call_notes": "Call notes",
+        "button_call_transfer": "Call transfer",
+        "CallRecording": {
+          "cancellation_title": "This call is being recorded",
+          "cancellation_button": "Stop",
+          "cancellation_success_title": "Call recording is disabled for ongoing call"
+        }
+      }
+    }
+  },
+  "ModalDeleteCategory": {
+    "title": "Before deleting this number...",
+    "warning": "Please note that once you accept to delete your number, it will be permanently and immediately deleted.",
+    "confirmation_title": "I understand that:",
+    "confirmation_checkbox_1": "All call logs, messages, and voicemails will be deleted",
+    "confirmation_checkbox_2": "All contacts will be unassigned",
+    "confirmation_checkbox_3": "Number {number} will be deleted from the app and you will not be able to use it anymore",
+    "button_cancel": "Keep number",
+    "button_confirm": "Delete number",
+    "success_notification_title": "Success!",
+    "success_notification_description": "Number successfully deleted"
+  },
+  "FeatureBlockSplash": {
+    "calls": "Use the Web Application to make & receive phone calls, and view your call history",
+    "messages": "Use the Web App to send & receive SMS and see all your conversations",
+    "voicemails": "Upgrade your plan to see & listen your voicemails via Web App",
+    "button_upgrade": "Upgrade to Premium",
+    "contacts": "Upgrade your plan to see and edit your contacts",
+    "button_trial_available": "Try premium for free"
+  },
+  "Premium": {
+    "heading_title": "Upgrading to Premium",
+    "heading_description": "Take advantage of all Premium features with all of your numbers by upgrading your plan. {buttonLearnMore} to learn more.",
+    "summary_title": "Summary",
+    "summary_email_label": "Email",
+    "summary_plan_type_label": "Plan type",
+    "summary_total_fee_label": "Total fee",
+    "summary_total_fee_month": "month",
+    "summary_info": "By clicking the confirm purchase button, you agree to start with your subscription immediately. To validate your credit card, we will charge you a few cents and refund you immediately afterwards. Onoff will automatically renew your subscription and charge the corresponding fees to your credit card every month, unless you cancel. You can cancel subscription at any time to avoid any further debits. ",
+    "submit_button_text": "Complete subscription",
+    "cancel_button_text": "Cancel",
+    "login_title": "Go even further by taking advantage of our premium features!",
+    "login_premium_button_text": "Check Premium features",
+    "summary_plan_price_label": "Price",
+    "trial_login_title": "Start your 30 days free Premium trial!",
+    "trial_heading_title": "Premium Free Trial",
+    "trial_heading_description": "Register now and for 30 days you'll enjoy access to all Premium features 🚀. You can cancel anytime. {buttonLearnMore} to learn more.",
+    "summary_free_trial_discount_price_label": "Free Trial discount",
+    "summary_total_one_time_discount": "one time",
+    "trial_used_modal_title": "Premium Plan",
+    "trial_used_modal_description": "Your Premium Free Trial is already over. Upgrade to Premium Plan to keep access to advanced features.",
+    "trial_used_modal_submit_button_text": "I understand",
+    "button_learn_more": "Click here"
+  },
+  "Pagination": {
+    "info": "{currentRange} of {totalItemCount}"
+  },
+  "ApiError": {
+    "request_forbidden_title": "Oops..",
+    "request_forbidden_description": "We're sorry, but you don't have access to this page",
+    "email_invalid": "Email is invalid"
+  },
+  "InfoTopBar": {
+    "Actions": {
+      "Dropdown": {
+        "button_contact_edit": "Contact information",
+        "button_contact_export_crm": "Export to CRM",
+        "button_contact_favorite_add": "Mark as favourite",
+        "button_contact_favorite_remove": "Remove from favourites",
+        "button_contact_block_remove": "Unblock contact",
+        "button_number_block_add": "Block number",
+        "button_number_block_remove": "Unblock number",
+        "button_delete_call_log": "Delete call",
+        "button_delete_conversation": "Delete conversation",
+        "button_delete_voicemail": "Delete voicemail",
+        "button_delete_contact": "Delete contact"
+      }
+    }
+  },
+  "ERROR": "ERROR",
+  "ModalCallQualitySurvey": {
+    "Header": {
+      "title": "How was your call?",
+      "subtitle": "Your rating will help us to improve!"
+    },
+    "GiveReason": {
+      "heading": "What was the issue?",
+      "custom_reason_placeholder": "Write the details here"
+    },
+    "Actions": {
+      "main": "Send",
+      "secondary": "Not now"
+    },
+    "notification_succeeded_description": "We got your feedback!",
+    "notification_succeeded_heading": "Thank you for collaboration!"
+  },
+  "email_unsubscription": {
+    "message_success_title": "Unsubscribed successfully",
+    "message_success_description": "You have successfully unsubscribed from our email list.",
+    "message_already_unsubscribed_title": "Already Unsubscribed",
+    "message_already_unsubscribed_description": "It seems like you've already unsubscribed from our email list.",
+    "message_token_expired_title": "Unsubscription Link Expired",
+    "message_token_expired_description": "We're sorry, but the link you used to unsubscribe has expired.",
+    "message_error_title": "Oops... Something went wrong",
+    "message_error_description": "We apologize for the inconvenience. Please try again later or contact our support team for assistance."
+  },
+  "RenewalPeriod": {
+    "card_info": "Your subscription will be updated to {period} on the next renewal date.",
+    "Notifications": {
+      "renewal_period_changed_title": "Subscription Period changed",
+      "renewal_period_changed_description": "New subscription will be applied automatically when the current period ends.",
+      "renewal_period_changed_partially_title": "Update Partially Successful",
+      "renewal_period_changed_partially_description": "Some items couldn’t be updated. Please check and try updating them individually."
+    },
+    "period": "{period} {period, plural, one {month} other {months}}"
+  },
+  "CallTransfer": {
+    "ToastNotification": {
+      "complete_warm_transfer_failed": "Completing warm transfer failed. Please try again",
+      "cancel_warm_transfer_failed": "Cancelling warm transfer failed. Please try again"
+    }
+  },
+  "NewSection": {},
+  "Polololo": {},
+  "Untitled": {}
+}
