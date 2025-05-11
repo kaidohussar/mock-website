@@ -1,3 +1,4 @@
+
 // 1. Import the consumer's specific generated type
 import type { ContentRoot } from "./content/content-types";
 //    ^ This 'ContentRoot' should be the interface generated from your FLATTENED JSON,

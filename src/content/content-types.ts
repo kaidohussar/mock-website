@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 export interface ContentRoot {
   'App.Heading': string;
   'App.newKey.contentstorage_type': string;

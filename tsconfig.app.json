@@ -1,31 +1,33 @@
 {
   "compilerOptions": {
-    "composite": true,
-    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "module": "ESNext",
-    "skipLibCheck": true,
-    "noEmit": false, // Or remove this line
-
-    /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
-    "verbatimModuleSyntax": true,
-    "moduleDetection": "force",
     "jsx": "react-jsx",
 
-    /* Linting */
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "skipLibCheck": false, // Keep false for thorough checking
+    "noEmit": true,
+
+    "typeRoots": [
+      "./node_modules/@types" // Standard location for @types
+      // If you had a custom types folder like "./src/types", add it:
+      // "./src/types"
+    ],
+    "types": [
+      "react",             // Explicitly include base React types
+      "vite/client"      // Explicitly include Vite client types
+      // DO NOT list your custom-elements.d.ts or its filename stem here
+    ]
   },
-  "files": [],
   "include": [
-    "src/**/*"
-  ]
+    "src",               // This includes src/custom-elements.d.ts
+    "vite-env.d.ts"      // If vite-env.d.ts is in the project root
+  ],
+  "exclude": ["node_modules"],
+  "files": [] // Ensure "files" is empty or not present
 }
