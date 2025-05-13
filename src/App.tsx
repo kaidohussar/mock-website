@@ -1,6 +1,6 @@
 
 
-import {useEffect, useState} from 'react'
+import { useEffect, useState} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -8,6 +8,7 @@ import {getText, setContentLanguage} from "@contentstorage/core";
 
 import ENJson from './content/json/EN.json';
 import FRJson from './content/json/FR.json';
+import {getVariation} from "@contentstorage/core/dist/lib/contentManagement";
 
 setContentLanguage(ENJson);
 
@@ -24,8 +25,9 @@ function App() {
         setContentLanguage(ENJson);
         setLanguage('EN')
     }, []);
-
-
+    console.log('LALALAAL');
+    const variation = getVariation('App.newKey', 'variation2');
+    console.log('AAAAA', variation);
     return (
         <>
             <div>
@@ -38,9 +40,10 @@ function App() {
 
 
             </div>
-            <h1>{getText('App.Heading') || 'Not found'}</h1>
+            <h1 data-contentstorage-id="App.Heading">{getText('App.Heading') || 'Not found'}</h1>
 
-            <cs-text data-contentstorage-id="App.Heading"></cs-text>
+            <h2 data-contentstorage-id="App.newKey">{getVariation('App.newKey', 'variation2')}</h2>
+
 
             <div className="card">
                 <button onClick={() => setLanguage('FR')}>

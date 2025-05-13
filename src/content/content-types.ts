@@ -1,29 +1,13 @@
-// @ts-nocheck
-
 export interface ContentRoot {
   'App.Heading': string;
-  'App.newKey.contentstorage_type': string;
-  'App.newKey.data.default': string;
-  'App.newKey.data.variation2': string;
-  'App.kanghuru.contentstorage_type': string;
-  'App.kanghuru.url': string;
-  'App.kanghuru.altText': string;
+  'App.newKey': AppnewKey;
+  'App.kanghuru': Appkanghuru;
   'App.test': string;
-  'App.uploadSvg.contentstorage_type': string;
-  'App.uploadSvg.url': string;
-  'App.uploadSvg.altText': string;
-  'App.screenshot.contentstorage_type': string;
-  'App.screenshot.url': string;
-  'App.screenshot.altText': string;
-  'App.GermanShepherddogAlsatian.contentstorage_type': string;
-  'App.GermanShepherddogAlsatian.url': string;
-  'App.GermanShepherddogAlsatian.altText': string;
-  'App.laud.contentstorage_type': string;
-  'App.laud.url': string;
-  'App.laud.altText': string;
-  'App.pealt.contentstorage_type': string;
-  'App.pealt.url': string;
-  'App.pealt.altText': string;
+  'App.uploadSvg': Appkanghuru;
+  'App.screenshot': Appkanghuru;
+  'App.GermanShepherddogAlsatian': Appkanghuru;
+  'App.laud': Appkanghuru;
+  'App.pealt': Appkanghuru;
   'PageTitles.login': string;
   'PageTitles.registration': string;
   'PageTitles.contacts': string;
@@ -36,17 +20,13 @@ export interface ContentRoot {
   'PageTitles.incoming_call': string;
   'PageTitles.calls3': string;
   'Preloader.message': string;
-  'Preloader.gifimage.contentstorage_type': string;
-  'Preloader.gifimage.url': string;
-  'Preloader.gifimage.altText': string;
+  'Preloader.gifimage': Appkanghuru;
   'Login.btn_log_in_facebook': string;
   'Login.btn_log_in_google': string;
   'Login.btn_sign_up_email': string;
   'Login.ph_email': string;
   'Login.ph_password': string;
-  'Login.signin_with_email.contentstorage_type': string;
-  'Login.signin_with_email.data.default': string;
-  'Login.signin_with_email.data.variation2': string;
+  'Login.signin_with_email': AppnewKey;
   'Login.btn_log_in': string;
   'Login.by_signing_you_agree': string;
   'Login.term_of_service': string;
@@ -232,9 +212,7 @@ export interface ContentRoot {
   'Settings.Password.current_password_placeholder': string;
   'Settings.Password.new_password_placeholder': string;
   'Settings.Password.repeat_new_password_placeholder': string;
-  'Settings.Password.sada.contentstorage_type': string;
-  'Settings.Password.sada.url': string;
-  'Settings.Password.sada.altText': string;
+  'Settings.Password.sada': Appkanghuru;
   'Settings.sidemenu_title': string;
   'Settings.account_plans': string;
   'Settings.ModalAccountDeletion.title': string;
@@ -1276,4 +1254,20 @@ export interface ContentRoot {
 }
 
 interface GeneralValidations2 {
+}
+
+interface Appkanghuru {
+  contentstorage_type: string;
+  url: string;
+  altText: string;
+}
+
+interface AppnewKey {
+  contentstorage_type: string;
+  data: Data;
+}
+
+interface Data {
+  default: string;
+  variation2: string;
 }

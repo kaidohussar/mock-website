@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
+    "composite": true,
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "module": "ESNext",
     "jsx": "react-jsx",
@@ -29,5 +30,4 @@
     "vite-env.d.ts"      // If vite-env.d.ts is in the project root
   ],
   "exclude": ["node_modules"],
-  "files": [] // Ensure "files" is empty or not present
 }
