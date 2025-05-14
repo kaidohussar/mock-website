@@ -13,7 +13,7 @@
       "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/kanghuru(2).svg",
       "altText": ""
     },
-    "test": "fr test",
+    "test": "fr test {variable1} is bueno bonjour for {variable2}",
     "uploadSvg": {
       "contentstorage_type": "image",
       "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/uploadSvg.svg",
@@ -943,33 +943,6 @@
     "incoming_video_call": "Appel Vidéo entrant",
     "incoming_audio_call": "Appel entrant"
   },
-  "NumberInfo": {
-    "modal_content_label": "Information",
-    "modal_title": "Information",
-    "your_number": "Votre numéro",
-    "number": "Numéro",
-    "download_app_to_renew": "Téléchargez onoff sur Android ou iOS pour renouveler votre forfait",
-    "app_store": "App Store",
-    "play_store": "Play Store",
-    "min": "min",
-    "call_time_month": "Temps d'appel / mois",
-    "sms": "SMS",
-    "messages_month": "Messages / mois",
-    "expiration": "Éxpiration",
-    "reset_on": "Le forfait mensuel sera réinitialisé le",
-    "call_time_used": "Temps d'appel utilisé",
-    "read_more": "En savoir plus",
-    "SMALL": "Small",
-    "MEDIUM": "Medium",
-    "LARGE": "Large",
-    "statistics_unavailable_title": "Statistiques indisponibles",
-    "statistics_unavailable_description": "Ce forfait ne comporte pas de numéro associé.",
-    "modal_title_details": "Détails",
-    "back_to_summary": "Retour",
-    "download_app_to_purchase": "Téléchargez onoff sur Android ou iOS pour acquérir un nouveau forfait",
-    "plan_expired": "Forfait expiré",
-    "unlimited": "Illimité"
-  },
   "messages_month": "Messages / mois",
   "InputErrors": {
     "General": {
@@ -1752,7 +1725,8 @@
       "cancel_warm_transfer_failed": ""
     }
   },
-  "NewSection": {},
-  "Polololo": {},
+  "Polololo": {
+    "lalalala": "sdfsdfdsfdsf3423424"
+  },
   "Untitled": {}
 }

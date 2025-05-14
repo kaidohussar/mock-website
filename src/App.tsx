@@ -4,11 +4,10 @@ import { useEffect, useState} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import {getText, setContentLanguage} from "@contentstorage/core";
+import {getImage, getText, getVariation, setContentLanguage} from "@contentstorage/core";
 
 import ENJson from './content/json/EN.json';
 import FRJson from './content/json/FR.json';
-import {getVariation} from "@contentstorage/core/dist/lib/contentManagement";
 
 setContentLanguage(ENJson);
 
@@ -26,13 +25,15 @@ function App() {
         setLanguage('EN')
     }, []);
     console.log('LALALAAL');
+
+    const image = getImage('App.kanghuru')
     const variation = getVariation('App.newKey', 'variation2');
     console.log('AAAAA', variation);
     return (
         <>
             <div>
                 <a href="https://vite.dev" target="_blank">
-                    <img src={viteLogo} className="logo" alt="Vite logo" />
+                    <img src={image?.url} className="logo" alt="Vite logo" />
                 </a>
                 <a href="https://react.dev" target="_blank">
                     <img src={reactLogo} className="logo react" alt="React logo" />

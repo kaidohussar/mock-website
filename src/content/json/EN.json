@@ -13,7 +13,7 @@
       "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/kanghuru(2).svg",
       "altText": ""
     },
-    "test": "en test",
+    "test": "en test {variable1} is very good for {variable2}",
     "uploadSvg": {
       "contentstorage_type": "image",
       "url": "108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6/file-library/uploadSvg.svg",
@@ -121,7 +121,7 @@
     "sign_up_google": "Sign up with Google"
   },
   "Recovery": {
-    "title": "Password Recovery",
+    "title": "Password Recovery222",
     "instructions": "Please enter the email address you used to register. We'll send you an email with a link to reset your password.",
     "enter_email": "Enter email address",
     "send": "Send",
@@ -943,33 +943,6 @@
     "incoming_video_call": "incoming video call",
     "incoming_audio_call": "incoming audio call"
   },
-  "NumberInfo": {
-    "modal_content_label": "Information",
-    "modal_title": "Information",
-    "your_number": "Your number",
-    "number": "Number",
-    "download_app_to_renew": "Download onoff App or Android in order to renew your plan",
-    "app_store": "App Store",
-    "play_store": "Play Store",
-    "min": "calls",
-    "call_time_month": "call time / month",
-    "sms": "SMS",
-    "messages_month": "messages / month",
-    "expiration": "Expiration",
-    "reset_on": "Monthly usage will reset on",
-    "call_time_used": "Call time used",
-    "read_more": "Read more",
-    "SMALL": "Small Plan",
-    "MEDIUM": "Medium Plan",
-    "LARGE": "Large Plan",
-    "statistics_unavailable_title": "Statistics unavailable",
-    "statistics_unavailable_description": "This package doesn't have a plan associated with it.",
-    "modal_title_details": "Details",
-    "back_to_summary": "Back to summary",
-    "download_app_to_purchase": "Download onoff App on iOS or Android in order to purchase new plan",
-    "plan_expired": "Plan expired",
-    "unlimited": "Unlimited"
-  },
   "messages_month": "messages / month",
   "InputErrors": {
     "General": {
@@ -1752,7 +1725,8 @@
       "cancel_warm_transfer_failed": "Cancelling warm transfer failed. Please try again"
     }
   },
-  "NewSection": {},
-  "Polololo": {},
+  "Polololo": {
+    "lalalala": "sdfsdfdsfs"
+  },
   "Untitled": {}
 }

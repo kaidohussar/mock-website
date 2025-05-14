@@ -719,31 +719,6 @@ export interface ContentRoot {
   'Voip.decline': string;
   'Voip.incoming_video_call': string;
   'Voip.incoming_audio_call': string;
-  'NumberInfo.modal_content_label': string;
-  'NumberInfo.modal_title': string;
-  'NumberInfo.your_number': string;
-  'NumberInfo.number': string;
-  'NumberInfo.download_app_to_renew': string;
-  'NumberInfo.app_store': string;
-  'NumberInfo.play_store': string;
-  'NumberInfo.min': string;
-  'NumberInfo.call_time_month': string;
-  'NumberInfo.sms': string;
-  'NumberInfo.messages_month': string;
-  'NumberInfo.expiration': string;
-  'NumberInfo.reset_on': string;
-  'NumberInfo.call_time_used': string;
-  'NumberInfo.read_more': string;
-  'NumberInfo.SMALL': string;
-  'NumberInfo.MEDIUM': string;
-  'NumberInfo.LARGE': string;
-  'NumberInfo.statistics_unavailable_title': string;
-  'NumberInfo.statistics_unavailable_description': string;
-  'NumberInfo.modal_title_details': string;
-  'NumberInfo.back_to_summary': string;
-  'NumberInfo.download_app_to_purchase': string;
-  'NumberInfo.plan_expired': string;
-  'NumberInfo.unlimited': string;
   messages_month: string;
   'InputErrors.General.Blank': string;
   'InputErrors.General.EmailInvalid': string;
@@ -1248,8 +1223,7 @@ export interface ContentRoot {
   'RenewalPeriod.period': string;
   'CallTransfer.ToastNotification.complete_warm_transfer_failed': string;
   'CallTransfer.ToastNotification.cancel_warm_transfer_failed': string;
-  NewSection: GeneralValidations2;
-  Polololo: GeneralValidations2;
+  'Polololo.lalalala': string;
   Untitled: GeneralValidations2;
 }
 
