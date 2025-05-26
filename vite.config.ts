@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react({
   })],
   server: {
-    allowedHosts: ['light-mugs-decide.loca.lt']
+    allowedHosts: ['lovely-sheep-strive.loca.lt']
   }
 })
