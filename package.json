@@ -9,7 +9,8 @@
     "lint": "eslint",
     "preview": "vite preview",
     "pull-content": "pull-content",
-    "generate-types": "generate-types"
+    "generate-types": "generate-types",
+    "start-tunnel": "lt --port 5174"
   },
   "dependencies": {
     "@contentstorage/core": "0.3.32",
