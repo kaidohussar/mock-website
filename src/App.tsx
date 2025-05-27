@@ -13,6 +13,8 @@ setContentLanguage(ENJson);
 
 function App() {
 
+    const [page, setPage] = useState(1);
+    const [newKeyState, setNewKeyState] = useState<'variation2' | 'default'>('default');
     const [currentLang, setCurrentLang] = useState<'FR' | 'EN'>('EN')
 
     const setLanguage =  (lang: 'FR' | 'EN') => {
@@ -28,6 +30,8 @@ function App() {
 
     const image = getImage('App.kanghuru')
     const variation = getVariation('App.newKey', 'variation2');
+
+
     console.log('AAAAA', variation);
     return (
         <>
@@ -41,22 +45,41 @@ function App() {
 
 
             </div>
-            <h1 data-contentstorage-id="App.Heading">{getText('App.Heading') || 'Not found'}</h1>
+            {page === 1 && (
+                <>
+                    <h1 data-contentstorage-id="App.Heading">{getText('App.Heading') || 'Not found'}</h1>
 
-            <h2 data-contentstorage-id="App.newKey">{getVariation('App.newKey', 'variation2')}</h2>
+                    <h2 data-contentstorage-id="App.newKey">{getVariation('App.newKey', newKeyState)}</h2>
 
+                    <button data-contentstorage-id="PageTitles.login" onClick={() => setNewKeyState('default')} className="button">
+                        {getText('PageTitles.login')}
+                    </button>
 
-            <div className="card">
-                <button onClick={() => setLanguage('FR')}>
-                    Set language to FR
-                </button>
-                <button onClick={() => setLanguage('EN')}>
-                    Set language to EN
-                </button>
-            </div>
-            <p className="read-the-docs">
-                {currentLang}
-            </p>
+                    <button data-contentstorage-id="PageTitles.registration" onClick={() => setNewKeyState('variation2')} className="button">
+                        {getText('PageTitles.registration')}
+                    </button>
+
+                    <div className="card">
+                        <button onClick={() => setLanguage('FR')}>
+                            Set language to FR
+                        </button>
+                        <button onClick={() => setLanguage('EN')}>
+                            Set language to EN
+                        </button>
+                    </div>
+                    <p className="read-the-docs">
+                        {currentLang}
+                    </p>
+                    <button onClick={() => setPage(2)}>To Page 2</button>
+                </>
+            )}
+
+            {page === 2 && (
+                <>
+                    <button onClick={() => setPage(1)}>To Page 1</button>
+                    <h1 data-contentstorage-id="Register.sign_up_google">{getText('Register.sign_up_google') || 'Not found'}</h1>
+                </>
+            )}
         </>
     )
 }
