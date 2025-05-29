@@ -46,7 +46,7 @@ function App() {
     <>
       <div>
         <a href="https://vite.dev" target="_blank">
-          <img src={image?.url} className="logo" alt="Vite logo" />
+          <img src={image?.data.url} className="logo" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
@@ -54,28 +54,26 @@ function App() {
       </div>
       {page === 1 && (
         <>
-          <h1 data-contentstorage-id="App.Heading">
-            {getText("App.Heading") || "Not found"}
+          <h1 data-content-key={getText("App.Heading").contentKey}>
+            {getText("App.Heading").text || "Not found"}
           </h1>
 
-          <h2 data-contentstorage-id="App.newKey">
-            {getVariation("App.newKey", newKeyState)}
+          <h2 data-content-key="App.newKey">
+            {getVariation("App.newKey", newKeyState).text}
           </h2>
 
-          <button
-            data-contentstorage-id="PageTitles.login"
+          <button data-content-key="PageTitles.login"
             onClick={() => setNewKeyState("default")}
             className="button"
           >
-            {getText("PageTitles.login")}
+            {getText("PageTitles.login").text}
           </button>
 
-          <button
-            data-contentstorage-id="PageTitles.registration"
+          <button data-content-key="PageTitles.registration"
             onClick={() => setNewKeyState("variation2")}
             className="button"
           >
-            {getText("PageTitles.registration")}
+            {getText("PageTitles.registration").text}
           </button>
 
           <div className="card">
@@ -95,7 +93,7 @@ function App() {
         <>
           <button onClick={() => setPage(1)}>To Page 1</button>
           <h1 data-contentstorage-id="Register.sign_up_google">
-            {getText("Register.sign_up_google") || "Not found"}
+            {getText("Register.sign_up_google").text || "Not found"}
           </h1>
 
           {/*<div {...register(headingId)}>{headingContent}</div>*/}
