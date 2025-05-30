@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import {
   getImage,
@@ -92,7 +91,7 @@ function App() {
       {page === 2 && (
         <>
           <button onClick={() => setPage(1)}>To Page 1</button>
-          <h1 data-contentstorage-id="Register.sign_up_google">
+          <h1 data-content-key="Register.sign_up_google">
             {getText("Register.sign_up_google").text || "Not found"}
           </h1>
 
