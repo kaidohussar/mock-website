@@ -2,31 +2,46 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import "./App.css";
 import {
+  fetchContent,
   getImage,
   getText,
-  getVariation,
+  getVariation, initContentStorage,
   setContentLanguage,
 } from "@contentstorage/core";
 
-import ENJson from "./content/json/EN.json";
-import FRJson from "./content/json/FR.json";
+// import ENJson from "./content/json/EN.json";
+// import FRJson from "./content/json/FR.json";
 
-setContentLanguage(ENJson);
+//setContentLanguage(ENJson);
+
+initContentStorage({
+  languageCodes: ['EN', 'FR'],
+  contentKey: '108541025900791613826/2076807b-036d-4e7a-a5ea-24190920bde6'
+})
 
 function App() {
   const [page, setPage] = useState(1);
   const [newKeyState, setNewKeyState] = useState<"variation2" | "default">(
     "default",
   );
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const [currentLang, setCurrentLang] = useState<"FR" | "EN">("EN");
 
-  const setLanguage = (lang: "FR" | "EN") => {
-    setContentLanguage(lang === "EN" ? ENJson : FRJson);
+  const setLanguage = async (lang: "FR" | "EN") => {
+    setIsLoading(true);
+    try {
+      await fetchContent(lang);
+    } catch (error) {
+      console.error(error);
+    } finally {
+      setIsLoading(false);
+    }
+  //  setContentLanguage(lang === "EN" ? ENJson : FRJson);
     setCurrentLang(lang);
   };
 
   useEffect(() => {
-    setContentLanguage(ENJson);
+//    setContentLanguage(ENJson);
     setLanguage("EN");
   }, []);
   console.log("LALALAAL");
@@ -39,6 +54,10 @@ function App() {
   //   textContent: headingContent,
   //   id: headingId,
   // } = getText("App.Heading");
+
+  if (isLoading) {
+    return <div>Loading...</div>;
+  }
 
   console.log("AAAAA", variation);
   return (
