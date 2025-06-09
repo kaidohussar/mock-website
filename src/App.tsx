@@ -72,22 +72,22 @@ function App() {
       </div>
       {page === 1 && (
         <>
-          <h1 data-content-key={getText("App.Heading").contentKey}>
+          <h1>
             {getText("App.Heading").text || "Not found"}
           </h1>
 
-          <h2 data-content-key="App.newKey">
+          <h2>
             {getVariation("App.newKey", newKeyState).text}
           </h2>
 
-          <button data-content-key="PageTitles.login"
+          <button
             onClick={() => setNewKeyState("default")}
             className="button"
           >
             {getText("PageTitles.login").text}
           </button>
 
-          <button data-content-key="PageTitles.registration"
+          <button
             onClick={() => setNewKeyState("variation2")}
             className="button"
           >
@@ -110,7 +110,7 @@ function App() {
       {page === 2 && (
         <>
           <button onClick={() => setPage(1)}>To Page 1</button>
-          <h1 data-content-key="Register.sign_up_google">
+          <h1>
             {getText("Register.sign_up_google").text || "Not found"}
           </h1>
 
