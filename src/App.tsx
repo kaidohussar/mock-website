@@ -8,6 +8,7 @@ import {
   getVariation, initContentStorage,
   setContentLanguage,
 } from "@contentstorage/core";
+import {styles} from "./styles";
 
 // import ENJson from "./content/json/EN.json";
 // import FRJson from "./content/json/FR.json";
@@ -113,6 +114,80 @@ function App() {
           <h1>
             {getText("Register.sign_up_google").text || "Not found"}
           </h1>
+
+          <header>
+            <h1 style={styles.headerH1}>Website Title</h1>
+          </header>
+
+          <nav>
+            <a href="#" style={styles.navLink}>Home</a>
+            <a href="#" style={styles.navLink}>About</a>
+            <a href="#" style={styles.navLink}>Services</a>
+            <a href="#" style={styles.navLink}>Portfolio</a>
+            <a href="#" style={styles.navLink}>Blog</a>
+            <a href="#" style={styles.navLink}>Contact</a>
+          </nav>
+
+          <main style={styles.main}>
+            <section style={styles.section}>
+              <h2 style={styles.sectionH2}>Welcome to Our Enhanced Content Page</h2>
+              <p style={styles.paragraph}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+              </p>
+              <p style={styles.paragraph}>
+                Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+              </p>
+              <a href="#" style={styles.button}>Get Started</a>
+            </section>
+
+            <section style={styles.section}>
+              <h2 style={styles.sectionH2}>Our Comprehensive Services</h2>
+              <p style={styles.paragraph}>
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa.
+              </p>
+              <ul style={styles.list}>
+                <li style={styles.listItem}><strong>Strategic Planning:</strong> We analyze and plan every step to ensure success.</li>
+                <li style={styles.listItem}><strong>Creative Design:</strong> Our designs are not only beautiful but also user-friendly.</li>
+                <li style={styles.listItem}><strong>Robust Development:</strong> Building scalable and secure solutions for the future.</li>
+                <li style={styles.listItem}><strong>Digital Marketing:</strong> Expanding your reach through targeted campaigns.</li>
+              </ul>
+            </section>
+
+            <section style={styles.section}>
+              <h2 style={styles.sectionH2}>Project Showcase &amp; Methodology</h2>
+              <p style={styles.paragraph}>
+                Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+              </p>
+              <p style={styles.paragraph}>
+                Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.
+              </p>
+            </section>
+
+            <section style={styles.section}>
+              <h2 style={styles.sectionH2}>Exploring Further Details</h2>
+              <p style={styles.paragraph}>
+                Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc, quis gravida magna mi a libero. Fusce vulputate eleifend sapien.
+              </p>
+              <p style={styles.paragraph}>
+                Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Nullam accumsan lorem in dui. Cras ultricies mi eu turpis hendrerit fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Nam pretium turpis et arcu.
+              </p>
+            </section>
+
+            <section>
+              <h2 style={styles.sectionH2}>Final Thoughts &amp; Call to Action</h2>
+              <p style={styles.paragraph}>
+                Sed lectus. Donec mollis hendrerit risus. Phasellus nec sem in justo pellentesque facilisis. Etiam imperdiet imperdiet orci. Nunc nec neque. Phasellus leo dolor, tempus non, auctor et, hendrerit quis, nisi. Curabitur ligula sapien, tincidunt non, euismod vitae, posuere imperdiet, leo. Maecenas malesuada. Praesent congue erat at massa.
+              </p>
+              <p style={styles.paragraph}>
+                Sed cursus turpis vitae tortor. Donec posuere vulputate arcu. Phasellus accumsan cursus velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci.
+              </p>
+              <a href="#" style={styles.button}>Contact Us Now</a>
+            </section>
+          </main>
+
+          <footer>
+            <p style={styles.footerP}>&copy; 2025 Your Website. All Rights Reserved.</p>
+          </footer>
 
           {/*<div {...register(headingId)}>{headingContent}</div>*/}
 
