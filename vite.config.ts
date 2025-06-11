@@ -1,11 +1,10 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react({
-  })],
+  plugins: [react({})],
   server: {
-    allowedHosts: ['538f-87-119-182-245.ngrok-free.app']
-  }
-})
+    allowedHosts: ["b25e-87-119-178-33.ngrok-free.app"],
+  },
+});
