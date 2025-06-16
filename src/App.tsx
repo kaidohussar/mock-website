@@ -26,7 +26,7 @@ function App() {
   const [newKeyState, setNewKeyState] = useState<"variation2" | "default">(
     "default",
   );
-  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
   const [currentLang, setCurrentLang] = useState<"FR" | "EN">("EN");
 
   const setLanguage = async (lang: "FR" | "EN") => {
@@ -46,10 +46,7 @@ function App() {
     //    setContentLanguage(ENJson);
     setLanguage("EN");
   }, []);
-  console.log("LALALAAL");
-
-  const image = getImage("App.kanghuru");
-  const variation = getVariation("App.newKey", "variation2");
+  console.log("isLoading", isLoading);
 
   // const {
   //   register,
@@ -61,16 +58,19 @@ function App() {
     return <div>Loading...</div>;
   }
 
-  console.log("AAAAA", variation);
+  const image = getImage("App.kanghuru");
+  const variation = getVariation("App.newKey", "variation2");
+
+  console.log("image DATA", image);
   return (
     <>
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={image?.data.url} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img
+          data-content-key={image?.contentKey}
+          src={image?.data.url}
+          className="logo react"
+          alt="React logo"
+        />
       </div>
       {page === 1 && (
         <>
